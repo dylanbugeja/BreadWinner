@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/BreadWinner_Lobby.unity
+    guid: 314eaeb2af5c2d547bb236c04d8317ec
   m_configObjects: {}
