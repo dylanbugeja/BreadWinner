@@ -26,5 +26,11 @@ public class PlayerInputHandler : MonoBehaviour
         if (mover != null)
         mover.Jump(context.performed);
     }
+    public void OnGrapple(InputAction.CallbackContext context)
+    {
+        if (mover != null)
+            mover.Grapple();
+         //mover.Grapple(context.performed);
+    }
 
 }

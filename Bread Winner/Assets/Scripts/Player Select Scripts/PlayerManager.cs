@@ -39,7 +39,7 @@ public class PlayerManager : MonoBehaviour
             //Will switch to level select screen later
             SceneManager.LoadScene("Main");
         }
-    }
+    } 
     public void HandlePlayerJoin(PlayerInput pi)
     {
         Debug.Log("Player Joined " + pi.playerIndex);

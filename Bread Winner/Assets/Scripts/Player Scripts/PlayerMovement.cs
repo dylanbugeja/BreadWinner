@@ -15,6 +15,8 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float jumpForce = 5.0f;
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private int playerIndex = 0;
+    [SerializeField] private int health = 1;
+
     private void Awake()
     {
         col = GetComponent<Collider2D>();
@@ -42,6 +44,10 @@ public class PlayerMovement : MonoBehaviour
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
         }
     }
+    public void Grapple()
+    {
+
+    }
     private bool IsGrounded()
     {
         Vector2 tlPoint = transform.position;
@@ -53,5 +59,10 @@ public class PlayerMovement : MonoBehaviour
         brPoint.y -= col.bounds.extents.y;
 
         return Physics2D.OverlapArea(tlPoint, brPoint, ground);
+    }
+    public void ReceiveDamage(string objectTag)
+    {
+        //Get the object tag from the collision allowing different if statements based on what it collides into
+        health--;
     }
 }
