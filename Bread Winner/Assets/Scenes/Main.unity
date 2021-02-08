@@ -233,6 +233,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player 2
       objectReference: {fileID: 0}
+    - target: {fileID: 5620437054462677042, guid: 480db1feb6468da48b54f94d8abefb8f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 5620437054462677045, guid: 480db1feb6468da48b54f94d8abefb8f,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.75895023
+      objectReference: {fileID: 0}
+    - target: {fileID: 5620437054462677045, guid: 480db1feb6468da48b54f94d8abefb8f,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: 0.015247583
+      objectReference: {fileID: 0}
     - target: {fileID: 5620437054462677046, guid: 480db1feb6468da48b54f94d8abefb8f,
         type: 3}
       propertyPath: m_FlipX
@@ -775,6 +790,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81042a524d1b71a49a0de650075fc0d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameSpeed: 1
+  isPlay: 0
+  timerTxt: {fileID: 0}
+  time: 0
 --- !u!1001 &1475578824963270489
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -786,6 +805,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 5620437054462677042, guid: 480db1feb6468da48b54f94d8abefb8f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 5620437054462677045, guid: 480db1feb6468da48b54f94d8abefb8f,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.7894454
+      objectReference: {fileID: 0}
+    - target: {fileID: 5620437054462677045, guid: 480db1feb6468da48b54f94d8abefb8f,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: 0.010164976
       objectReference: {fileID: 0}
     - target: {fileID: 5620437054462677047, guid: 480db1feb6468da48b54f94d8abefb8f,
         type: 3}

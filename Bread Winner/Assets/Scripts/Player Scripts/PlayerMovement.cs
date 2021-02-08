@@ -90,8 +90,11 @@ public class PlayerMovement : MonoBehaviour
     {
         if (other.gameObject.tag == "Obstacle")
         {
-            
             health--;
+            if(health == 0)
+            {
+                GameManager.instance.GameOver();
+            }
         }
 
         if (other.gameObject.tag == "SpeedBoost")
@@ -112,6 +115,7 @@ public class PlayerMovement : MonoBehaviour
         if (other.gameObject.name == "Destroyer_bottom" || other.gameObject.name == "Destroyer_left")
         {
             Destroy(gameObject);
+            GameManager.instance.GameOver();
         }
     }
 }

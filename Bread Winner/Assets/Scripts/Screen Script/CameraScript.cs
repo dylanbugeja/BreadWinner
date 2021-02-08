@@ -15,6 +15,6 @@ public class CameraScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position += new Vector3(2 * Time.deltaTime, 0 , 0);
+        transform.Translate(Vector2.right * Time.deltaTime * GameManager.instance.gameSpeed);
     }
 }
