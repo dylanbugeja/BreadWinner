@@ -17,6 +17,9 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private int playerIndex = 0;
     [SerializeField] private int health = 1;
 
+    public float boostingTimer;
+    public bool isBoosting;
+
     private void Awake()
     {
         col = GetComponent<Collider2D>();
@@ -35,7 +38,20 @@ public class PlayerMovement : MonoBehaviour
     }
     private void Move()
     {
-       rb.velocity = new Vector2(inputX * moveSpeed, rb.velocity.y);
+        if(inputX < 0) transform.localScale = new Vector3(-1, 1, 1);
+        if(inputX > 0) transform.localScale = new Vector3(1, 1, 1);
+
+        if (isBoosting)
+        {
+            boostingTimer += Time.deltaTime;
+            if(boostingTimer >= 5)
+            {
+                moveSpeed = 4f;
+                boostingTimer = 0;
+                isBoosting = false;
+            }
+        }
+        rb.velocity = new Vector2(inputX * moveSpeed, rb.velocity.y);
     }
     public void Jump(bool performed)
     {
@@ -45,6 +61,10 @@ public class PlayerMovement : MonoBehaviour
         }
     }
     public void Grapple()
+    {
+
+    }
+    public void Use()
     {
 
     }
@@ -64,5 +84,34 @@ public class PlayerMovement : MonoBehaviour
     {
         //Get the object tag from the collision allowing different if statements based on what it collides into
         health--;
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "Obstacle")
+        {
+            
+            health--;
+        }
+
+        if (other.gameObject.tag == "SpeedBoost")
+        {
+            isBoosting = true;
+            moveSpeed = 10f;
+
+            Destroy(other.gameObject);
+        }
+
+        if (other.gameObject.tag == "SandwichBag")
+        {
+            health++;
+
+            Destroy(other.gameObject);
+        }
+
+        if (other.gameObject.name == "Destroyer_bottom" || other.gameObject.name == "Destroyer_left")
+        {
+            Destroy(gameObject);
+        }
     }
 }
