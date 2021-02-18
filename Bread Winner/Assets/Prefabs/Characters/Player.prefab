@@ -14,8 +14,9 @@ GameObject:
   - component: {fileID: 5620437054462677044}
   - component: {fileID: 1475578826352613334}
   - component: {fileID: 1475578826352613321}
+  - component: {fileID: 2529087100723094949}
   m_Layer: 0
-  m_Name: Player 1
+  m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -145,12 +146,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90d6ba1daec1ec94985aa7078e0402c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ground:
-    serializedVersion: 2
-    m_Bits: 256
-  moveSpeed: 4
-  jumpForce: 5
-  rb: {fileID: 5620437054462677044}
 --- !u!114 &1475578826352613321
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -256,3 +251,20 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &2529087100723094949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5620437054462677042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f3c1c055e45fd54aa0b849f1ce63c9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slots:
+  - {fileID: 0}
+  - {fileID: 0}
+  slotPrefab: {fileID: 8792688781803445821, guid: 27dcfa0bd11e39e44b66f7ee37d5516f,
+    type: 3}

@@ -29,14 +29,14 @@ public class PlayerInputHandler : MonoBehaviour
     public void OnGrapple(InputAction.CallbackContext context)
     {
         if (mover != null)
-            mover.Grapple();
-         //mover.Grapple(context.performed);
+            //mover.Grapple();
+            mover.Grapple(context.performed);
     }
     public void OnUse(InputAction.CallbackContext context)
     {
         if (mover != null)
-            mover.Use();
-        //mover.Grapple(context.performed);
+            //mover.Use();
+            mover.Use(context.performed);
     }
 
 }
