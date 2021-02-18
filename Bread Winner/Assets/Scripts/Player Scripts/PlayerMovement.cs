@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -12,7 +11,7 @@ public class PlayerMovement : MonoBehaviour
     private Collider2D col;
 
     [SerializeField] private LayerMask ground;
-    [SerializeField] private float moveSpeed = 6.0f;
+    [SerializeField] private float moveSpeed = 4.0f;
     [SerializeField] private float jumpForce = 5.0f;
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private int playerIndex = 0;
@@ -25,7 +24,6 @@ public class PlayerMovement : MonoBehaviour
     {
         col = GetComponent<Collider2D>();
     }
-
     void Update()
     {
         Move();
@@ -40,16 +38,15 @@ public class PlayerMovement : MonoBehaviour
     }
     private void Move()
     {
-        if (IsGrounded()) {
-           if(inputX < 0) transform.localScale = new Vector3(-1, 1, 1);
-           if(inputX > 0) transform.localScale = new Vector3(1, 1, 1);
-        }
+        if(inputX < 0) transform.localScale = new Vector3(-1, 1, 1);
+        if(inputX > 0) transform.localScale = new Vector3(1, 1, 1);
+
         if (isBoosting)
         {
             boostingTimer += Time.deltaTime;
             if(boostingTimer >= 5)
             {
-                moveSpeed = 6f;
+                moveSpeed = 4f;
                 boostingTimer = 0;
                 isBoosting = false;
             }
@@ -63,14 +60,11 @@ public class PlayerMovement : MonoBehaviour
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
         }
     }
-    public void Grapple(bool performed)
+    public void Grapple()
     {
-        if (performed)
-        {
-            Debug.Log(Inventory.instance.slots[0].slotObj);
-        }
+
     }
-    public void Use(bool performed)
+    public void Use()
     {
 
     }
@@ -94,21 +88,21 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        Inventory inven = other.GetComponent<Inventory>();
         if (other.gameObject.tag == "Obstacle")
         {
             health--;
             if(health == 0)
             {
-                Destroy(gameObject);
                 GameManager.instance.GameOver();
             }
         }
 
         if (other.gameObject.tag == "SpeedBoost")
         {
-            moveSpeed = 12f;
             isBoosting = true;
+            moveSpeed = 10f;
+
+            Destroy(other.gameObject);
         }
 
         if (other.gameObject.tag == "SandwichBag")
