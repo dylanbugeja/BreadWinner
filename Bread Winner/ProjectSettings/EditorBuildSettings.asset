@@ -6,8 +6,17 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/BreadWinner_Player_Select.unity
+    path: Assets/Prefabs/Scenes/BreadWinner_Player_Select.unity
     guid: 314eaeb2af5c2d547bb236c04d8317ec
+  - enabled: 1
+    path: Assets/Scenes/Main.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 0
+    path: Assets/Scenes/SampleScene.unity
+    guid: 1faf6bf73ea22b24db2821af837d2ebd
+  - enabled: 1
+    path: Assets/Scenes/WinningScene.unity
+    guid: 5c94fc0102627444fbe1496a9e9352ba
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: b9cc7e47e706d12489d15e831eb3c07b,
       type: 2}

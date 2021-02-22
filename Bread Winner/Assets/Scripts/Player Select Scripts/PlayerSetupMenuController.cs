@@ -30,7 +30,7 @@ public class PlayerSetupMenuController : MonoBehaviour
             inputEnabled = true;
         }
     }
-    public void setCharacter(Sprite character)
+    public void setCharacter(string character)
     {
         if (!inputEnabled) { return; }
 

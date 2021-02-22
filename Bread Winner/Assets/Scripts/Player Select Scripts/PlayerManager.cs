@@ -4,12 +4,14 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using System.Linq;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class PlayerManager : MonoBehaviour
 {
     private List<PlayerConfiguration> playerConfigs;
 
     [SerializeField] private int maxPlayers = 2;
+
 
     public static PlayerManager instance { get; private set; }
 
@@ -26,8 +28,23 @@ public class PlayerManager : MonoBehaviour
             playerConfigs = new List<PlayerConfiguration>();
         }
     }
+
+    public void HandlePlayerJoin(PlayerInput pi)
+    {
+        Debug.Log("Player Joined " + pi.playerIndex);
+       // pi.transform.SetParent(transform);
+        if (playerConfigs.Any(p => p.PlayerIndex == pi.playerIndex))
+        {
+            //pi.transform.SetParent(transform);
+            playerConfigs.Add(new PlayerConfiguration(pi));
+        }
+    }
+
+    public List<PlayerConfiguration> GetPlayerConfigs() { return playerConfigs;  }
+
+
     //Temp will need to adjust to a character class for different animations later
-    public void SetPlayerCharacter(int index, Sprite character)
+    public void SetPlayerCharacter(int index, string character)
     {
         playerConfigs[index].Character = character;
     }
@@ -40,16 +57,7 @@ public class PlayerManager : MonoBehaviour
             SceneManager.LoadScene("Main");
         }
     } 
-    public void HandlePlayerJoin(PlayerInput pi)
-    {
-        Debug.Log("Player Joined " + pi.playerIndex);
-        pi.transform.SetParent(transform);
-        if(playerConfigs.Any(p => p.PlayerIndex == pi.playerIndex))
-        {
-            pi.transform.SetParent(transform);
-            playerConfigs.Add(new PlayerConfiguration(pi));
-        }
-    }
+
 }
 
 public class PlayerConfiguration
@@ -60,11 +68,8 @@ public class PlayerConfiguration
         input = pi;
     }
     public PlayerInput input { get; set; }
-
     public int PlayerIndex { get; set; }
-
     public bool IsReady { get; set; }
-
-    public Sprite Character { get; set; }
+    public string Character { get; set; }
 
 }
