@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/BreadWinner_Player_Select.unity
+    path: Assets/Prefabs/Scenes/BreadWinner_Player_Select.unity
     guid: 314eaeb2af5c2d547bb236c04d8317ec
   - enabled: 1
     path: Assets/Scenes/Main.unity
