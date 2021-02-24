@@ -44,7 +44,11 @@ RenderSettings:
 LightmapSettings:
   m_ObjectHideFlags: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   serializedVersion: 11
+=======
+  serializedVersion: 12
+>>>>>>> parent of dfafa76 (Updated Player Select)
 =======
   serializedVersion: 12
 >>>>>>> parent of dfafa76 (Updated Player Select)
@@ -103,7 +107,11 @@ LightmapSettings:
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_UseShadowmask: 1
+=======
+  m_LightingSettings: {fileID: 1437269610}
+>>>>>>> parent of dfafa76 (Updated Player Select)
 =======
   m_LightingSettings: {fileID: 1437269610}
 >>>>>>> parent of dfafa76 (Updated Player Select)
@@ -127,10 +135,13 @@ NavMeshSettings:
     tileSize: 256
     accuratePlacement: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
 =======
+=======
+>>>>>>> parent of dfafa76 (Updated Player Select)
     maxJobWorkers: 0
     preserveTilesOutsideBounds: 0
     debug:
@@ -281,6 +292,9 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
+>>>>>>> parent of dfafa76 (Updated Player Select)
+=======
 >>>>>>> parent of dfafa76 (Updated Player Select)
 --- !u!1 &519420028
 GameObject:
@@ -295,6 +309,10 @@ GameObject:
   - component: {fileID: 519420029}
   - component: {fileID: 519420030}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  - component: {fileID: 519420033}
+>>>>>>> parent of dfafa76 (Updated Player Select)
 =======
   - component: {fileID: 519420033}
 >>>>>>> parent of dfafa76 (Updated Player Select)
@@ -387,7 +405,10 @@ Transform:
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of dfafa76 (Updated Player Select)
 --- !u!114 &519420033
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -402,6 +423,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timeStart: 0
   textBox: {fileID: 120940376}
+<<<<<<< HEAD
+>>>>>>> parent of dfafa76 (Updated Player Select)
+=======
 >>>>>>> parent of dfafa76 (Updated Player Select)
 --- !u!1001 &664804333
 PrefabInstance:
@@ -515,6 +539,7 @@ PrefabInstance:
     - {fileID: 1475578826352613321, guid: 480db1feb6468da48b54f94d8abefb8f, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 480db1feb6468da48b54f94d8abefb8f, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &857057027
 GameObject:
   m_ObjectHideFlags: 0
@@ -563,6 +588,8 @@ MonoBehaviour:
   - {fileID: 6909629310120348803, guid: a6709bf00db2ace4486322eefb05f73f, type: 3}
   - {fileID: 6410710352096261381, guid: bd6b3180ff2cfcc48ae1af9fb21341cb, type: 3}
   leadPlayer: {fileID: 6450705693266081643}
+=======
+>>>>>>> parent of dfafa76 (Updated Player Select)
 =======
 >>>>>>> parent of dfafa76 (Updated Player Select)
 --- !u!4 &946176475 stripped
@@ -709,6 +736,10 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  m_RayTraceProcedural: 0
+>>>>>>> parent of dfafa76 (Updated Player Select)
 =======
   m_RayTraceProcedural: 0
 >>>>>>> parent of dfafa76 (Updated Player Select)
@@ -823,7 +854,10 @@ Transform:
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of dfafa76 (Updated Player Select)
 --- !u!850595691 &1437269610
 LightingSettings:
   m_ObjectHideFlags: 0
@@ -885,6 +919,9 @@ LightingSettings:
   m_PVRFilteringAtrousPositionSigmaDirect: 0.5
   m_PVRFilteringAtrousPositionSigmaIndirect: 2
   m_PVRFilteringAtrousPositionSigmaAO: 1
+<<<<<<< HEAD
+>>>>>>> parent of dfafa76 (Updated Player Select)
+=======
 >>>>>>> parent of dfafa76 (Updated Player Select)
 --- !u!1 &1566946757
 GameObject:
@@ -944,7 +981,10 @@ BoxCollider2D:
   m_Size: {x: 1, y: 10.050635}
   m_EdgeRadius: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of dfafa76 (Updated Player Select)
 --- !u!1 &1738929310
 GameObject:
   m_ObjectHideFlags: 0
@@ -1044,6 +1084,9 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+<<<<<<< HEAD
+>>>>>>> parent of dfafa76 (Updated Player Select)
+=======
 >>>>>>> parent of dfafa76 (Updated Player Select)
 --- !u!1 &1862109048
 GameObject:
@@ -1150,13 +1193,19 @@ MonoBehaviour:
   timerTxt: {fileID: 0}
   time: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of dfafa76 (Updated Player Select)
 --- !u!95 &2132706264 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 2093710746654385977, guid: a442cff6f27d74f32902709bc1c046d4,
     type: 3}
   m_PrefabInstance: {fileID: 2093710746505323745}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+>>>>>>> parent of dfafa76 (Updated Player Select)
+=======
 >>>>>>> parent of dfafa76 (Updated Player Select)
 --- !u!1001 &1475578824963270489
 PrefabInstance:
@@ -1245,7 +1294,10 @@ PrefabInstance:
     - {fileID: 1475578826352613334, guid: 480db1feb6468da48b54f94d8abefb8f, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 480db1feb6468da48b54f94d8abefb8f, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of dfafa76 (Updated Player Select)
 --- !u!1001 &2093710746505323745
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1399,6 +1451,9 @@ PrefabInstance:
       objectReference: {fileID: 6450705693266081643}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 919ec75e8753545df9a0628351c2a5af, type: 3}
+<<<<<<< HEAD
+>>>>>>> parent of dfafa76 (Updated Player Select)
+=======
 >>>>>>> parent of dfafa76 (Updated Player Select)
 --- !u!1 &6450705693266081643 stripped
 GameObject:
@@ -1429,7 +1484,11 @@ MonoBehaviour:
     m_Bits: 256
   moveSpeed: 8
 <<<<<<< HEAD
+<<<<<<< HEAD
   jumpForce: 7
+=======
+  jumpForce: 8
+>>>>>>> parent of dfafa76 (Updated Player Select)
 =======
   jumpForce: 8
 >>>>>>> parent of dfafa76 (Updated Player Select)
@@ -1528,7 +1587,10 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2b6ca0514093aad49b9ceda06ff30b36, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of dfafa76 (Updated Player Select)
 --- !u!1001 &8868272660049835673
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1598,4 +1660,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cd7d355f4b5f9fb49b554913d4da49fc, type: 3}
+<<<<<<< HEAD
+>>>>>>> parent of dfafa76 (Updated Player Select)
+=======
 >>>>>>> parent of dfafa76 (Updated Player Select)
