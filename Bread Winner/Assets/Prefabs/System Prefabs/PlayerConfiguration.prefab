@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 3198166822379013971}
   - component: {fileID: 8580196998273965945}
-  - component: {fileID: 4016243490956149879}
   m_Layer: 0
   m_Name: PlayerConfiguration
   m_TagString: Untagged
@@ -46,7 +45,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Actions: {fileID: -944628639613478452, guid: a21f935bc2f358f43b50629a7e11104e,
     type: 3}
-  m_NotificationBehavior: 2
+  m_NotificationBehavior: 3
   m_UIInputModule: {fileID: 0}
   m_DeviceLostEvent:
     m_PersistentCalls:
@@ -57,78 +56,9 @@ MonoBehaviour:
   m_ControlsChangedEvent:
     m_PersistentCalls:
       m_Calls: []
-  m_ActionEvents:
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: db25ed25-5314-4bc8-9c87-d8279bf41c8b
-    m_ActionName: Player/Move[/Keyboard/w,/Keyboard/upArrow,/Keyboard/s,/Keyboard/downArrow,/Keyboard/a,/Keyboard/leftArrow,/Keyboard/d,/Keyboard/rightArrow]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 70b62083-700f-4fe1-bb2d-8920e65fcd4d
-    m_ActionName: Player/Grapple[/Mouse/leftButton]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: b448fafd-2519-4046-b0ba-151919a8a7c1
-    m_ActionName: Player/Jump[/Keyboard/space]
-  - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 4016243490956149879}
-        m_MethodName: OnLeft
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_ActionId: e41928c2-3f9d-47eb-aff2-38405839d18e
-    m_ActionName: UI/Left[/Keyboard/leftArrow,/Keyboard/a,/XInputControllerWindows/dpad/left,/XInputControllerWindows/leftStick/left]
-  - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 4016243490956149879}
-        m_MethodName: OnRight
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_ActionId: 90be81f0-46fd-4d1d-8d38-b59145b5562b
-    m_ActionName: UI/Right[/Keyboard/rightArrow,/Keyboard/d,/XInputControllerWindows/dpad/right,/XInputControllerWindows/leftStick/right]
-  - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 4016243490956149879}
-        m_MethodName: OnSelect
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_ActionId: c5ea6f9a-72d1-4df2-831f-3125d430526f
-    m_ActionName: UI/Select[/Keyboard/enter,/Keyboard/space,/XInputControllerWindows/buttonSouth]
+  m_ActionEvents: []
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
-  m_DefaultActionMap: UI
+  m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
---- !u!114 &4016243490956149879
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1074005424520233367}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c92fdce46385f30419eb875d64f90f27, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

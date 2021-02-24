@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: c5620f7f84e3a874c8e9dfba9a172597
+=======
+guid: ca1c804ace0ea374dbd7e6369a496580
+>>>>>>> parent of dfafa76 (Updated Player Select)
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
