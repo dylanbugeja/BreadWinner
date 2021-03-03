@@ -10,6 +10,7 @@ TagManager:
   - obstacle
   - Ground
   - Bag
+  - Trap
   layers:
   - Default
   - TransparentFX
