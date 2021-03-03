@@ -28,7 +28,6 @@ public class LevelGenerator : MonoBehaviour
     {
         foreach (GameObject p in Players)
         {
-            Debug.Log(Vector3.Distance(p.transform.position, lastEndPosition));
             if (Vector3.Distance(p.transform.position, lastEndPosition) < SPAWN_DISTANCE)
             {
                 SpawnLevelPart();

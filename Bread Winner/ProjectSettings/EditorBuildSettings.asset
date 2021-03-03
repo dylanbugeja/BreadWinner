@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Kitchen.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/End.unity
+    guid: a1cb66d198c2aa740bf259380115924b
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 65bcbb0461f11494f8757e6713e137ce,
       type: 2}

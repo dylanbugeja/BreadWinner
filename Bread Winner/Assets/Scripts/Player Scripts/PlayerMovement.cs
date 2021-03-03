@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
@@ -15,6 +16,7 @@ public class PlayerMovement : MonoBehaviour
     private float inputX;
     private Collider2D col;
 
+    private GameManager gm;
     public float prinputValue;
 
     [SerializeField] private LayerMask ground;
@@ -30,6 +32,8 @@ public class PlayerMovement : MonoBehaviour
 
     private void Awake()
     {
+        gm = FindObjectOfType<GameManager>();
+        gm.players++;
         animator = GetComponent<Animator>();
         col = GetComponent<Collider2D>();
     }
@@ -48,8 +52,9 @@ public class PlayerMovement : MonoBehaviour
     }
     private void Move()
     {
-        
-        if (IsGrounded()) {
+
+        if (IsGrounded())
+        {
             if (inputX < 0 && prinputValue != inputX)
             {
                 ChangeAnimation("Run");
@@ -58,7 +63,7 @@ public class PlayerMovement : MonoBehaviour
                 prinputValue = inputX;
                 //transform.localScale = new Vector3(-1, 1, 1);
             }
-           if(inputX > 0 && prinputValue != inputX)
+            if (inputX > 0 && prinputValue != inputX)
             {
                 ChangeAnimation("Run");
                 //transform.Rotate(0f, 180f, 0f);
@@ -66,7 +71,7 @@ public class PlayerMovement : MonoBehaviour
                 prinputValue = inputX;
                 //transform.localScale = new Vector3(1, 1, 1);
             }
-           if(inputX == 0 && prinputValue != inputX)
+            if (inputX == 0 && prinputValue != inputX)
             {
                 ChangeAnimation("Idle");
             }
@@ -74,7 +79,7 @@ public class PlayerMovement : MonoBehaviour
         if (isBoosting)
         {
             moveTimer += Time.deltaTime;
-            if(moveTimer >= 5)
+            if (moveTimer >= 2)
             {
                 moveSpeed = 6f;
                 moveTimer = 0;
@@ -140,10 +145,9 @@ public class PlayerMovement : MonoBehaviour
         if (other.gameObject.tag == "Obstacle")
         {
             health--;
-            if(health == 0)
+            if (health == 0)
             {
-                Destroy(gameObject);
-                GameManager.instance.GameOver();
+                Die();
             }
         }
 
@@ -151,6 +155,7 @@ public class PlayerMovement : MonoBehaviour
         {
             moveSpeed = 12f;
             isBoosting = true;
+            Destroy(other.gameObject);
         }
 
         if (other.gameObject.tag == "SandwichBag")
@@ -160,17 +165,23 @@ public class PlayerMovement : MonoBehaviour
             Destroy(other.gameObject);
         }
 
-        if(other.gameObject.tag == "Trap")
+        if (other.gameObject.tag == "Trap")
         {
             moveSpeed = 4f;
             isSlowing = true;
+            Destroy(other.gameObject);
         }
 
         if (other.gameObject.name == "Destroyer_bottom" || other.gameObject.name == "Destroyer_left")
         {
-            Destroy(gameObject);
-            GameManager.instance.GameOver();
+            Die();
         }
+    }
+    void Die()
+    {
+        gm.players--;
+        gm.CheckGameOver();
+        Destroy(gameObject);
     }
     private void ChangeAnimation(string newState)
     {

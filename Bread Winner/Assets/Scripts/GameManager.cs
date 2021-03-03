@@ -1,7 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
+using TMPro;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -20,17 +21,19 @@ public class GameManager : MonoBehaviour
 
     public delegate void OnPlay(bool isplay);
     public OnPlay onPlay;
+    public int players = 0;
 
     public float gameSpeed = 1f;
     public bool isPlay;
-    public GameObject playBtn;
 
-    public Text timerTxt;
+
+    public TextMeshProUGUI timerTxt;
     public int time;
 
     private void Start()
     {
-        playBtn.SetActive(false);
+
+       // playBtn.SetActive(false);
         isPlay = true;
         Debug.Log(isPlay);
         //onPlay.Invoke(isPlay);
@@ -48,16 +51,17 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void GameOver()
+    public void CheckGameOver()
     {
-        var players = GameObject.FindGameObjectsWithTag("Player");
-        if (players.Length == 2)
+        Debug.Log(players);
+        if (players == 1)
         {
-            playBtn.SetActive(true);
+            //playBtn.SetActive(true);
             isPlay = false;
             //onPlay.Invoke(isPlay);
             Debug.Log("last man standing");
             StopCoroutine(AddTime());
+            SceneManager.LoadScene("End");
         }
     }
 }
