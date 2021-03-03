@@ -6,8 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/BreadWinner_Player_Select.unity
-    guid: 314eaeb2af5c2d547bb236c04d8317ec
+    path: Assets/Scenes/Main_Menu.unity
+    guid: ec9115fb588277445b0ac73121d3526c
+  - enabled: 1
+    path: Assets/Scenes/Kitchen.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects:
-    com.unity.input.settings: {fileID: 11400000, guid: b9cc7e47e706d12489d15e831eb3c07b,
+    com.unity.input.settings: {fileID: 11400000, guid: 65bcbb0461f11494f8757e6713e137ce,
       type: 2}

@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - SandwichBag
+  - SpeedBoost
+  - Obstacle
+  - obstacle
+  - Ground
+  - Bag
   layers:
   - Default
   - TransparentFX

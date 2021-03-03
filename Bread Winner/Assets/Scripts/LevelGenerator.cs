@@ -4,13 +4,12 @@ using UnityEngine;
 
 public class LevelGenerator : MonoBehaviour
 {
-    private const float SPAWN_DISTANCE = 25f;
+    private const float SPAWN_DISTANCE = 250f;
 
     [SerializeField] private Transform levelStart;
     [SerializeField] private List<Transform> levelPartList;
-
     //Just going to reference player 1 for now needs to be fixed later
-    [SerializeField] private GameObject leadPlayer;
+    public List<GameObject> Players = new List<GameObject>();
 
     private Vector3 lastEndPosition;
 
@@ -27,9 +26,13 @@ public class LevelGenerator : MonoBehaviour
     }
     private void Update()
     {
-        if (Vector3.Distance(leadPlayer.transform.position, lastEndPosition) < SPAWN_DISTANCE)
+        foreach (GameObject p in Players)
         {
-            SpawnLevelPart();
+            Debug.Log(Vector3.Distance(p.transform.position, lastEndPosition));
+            if (Vector3.Distance(p.transform.position, lastEndPosition) < SPAWN_DISTANCE)
+            {
+                SpawnLevelPart();
+            }
         }
     }
     private void SpawnLevelPart()
