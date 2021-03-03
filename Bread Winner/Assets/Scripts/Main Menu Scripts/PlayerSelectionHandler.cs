@@ -24,7 +24,7 @@ public class PlayerSelectionHandler : MonoBehaviour
     private void PlayerInput_onActionTriggered(InputAction.CallbackContext obj)
     {
         if (obj.action.name == controls.PlayerSelect.NavigateLeft.name)
-        {
+        { @
             OnLeft(obj);
         }
         else if (obj.action.name == controls.PlayerSelect.NavigateRight.name)
