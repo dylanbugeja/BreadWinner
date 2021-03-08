@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class Selector : MonoBehaviour
 {
@@ -11,6 +12,7 @@ public class Selector : MonoBehaviour
     [SerializeField] private GameObject wait;
     [SerializeField] private GameObject join;
     [SerializeField] private GameObject ready;
+    [SerializeField] private Button start;
 
 
 
@@ -31,6 +33,7 @@ public class Selector : MonoBehaviour
         characters.Add("Swiss");
         characters.Add("Baguette");
         characters.Add("Croissant");
+        characters.Add("Roll");
 
         pm = FindObjectOfType<PlayerManager>();
         currentState = characters[0];
@@ -89,7 +92,7 @@ public class Selector : MonoBehaviour
                 join.SetActive(false);
                 ready.SetActive(true);
             }
-            else if (ready.activeSelf == true && playerIndex == 0)
+            else if (ready.activeSelf == true && start.interactable == true && playerIndex == 0)
             {
                 //Switch to level select if more levels are added later!
                 SceneManager.LoadScene("Kitchen");

@@ -10,6 +10,7 @@ public class PlayerInputHandler : MonoBehaviour
     //private PlayerInput pi;
     private PlayerMovement mover;
     private Animator animator;
+    public string character;
 
     //[SerializeField] private ;
 
@@ -29,7 +30,6 @@ public class PlayerInputHandler : MonoBehaviour
 
     private void Input_onActionTriggered(InputAction.CallbackContext obj)
     {
-        Debug.Log(obj.action.name);
         if (obj.action.name == controls.Player.Move.name)
         {
             OnMove(obj);
@@ -47,6 +47,10 @@ public class PlayerInputHandler : MonoBehaviour
             OnUse(obj);
         }
         
+    }
+    public string GetCharacter()
+    {
+        return playerConfig.Character;
     }
 
     public void OnMove(InputAction.CallbackContext context)

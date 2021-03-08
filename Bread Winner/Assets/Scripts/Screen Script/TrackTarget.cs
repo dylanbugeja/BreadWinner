@@ -21,12 +21,15 @@ public class TrackTarget : MonoBehaviour
         }
     }
     #endregion
+    public GameObject leadPlayer;
 
     [SerializeField] private List<Transform> targets = new List<Transform>();
     [SerializeField] private float boundingBoxPadding = 2f;
     [SerializeField] private float minimumOrthographicSize = 5f;
     [SerializeField] private float zoomSpeed = 20f;
+    [SerializeField] private float moveSpeed = 10f;
     new Camera camera;
+
 
     void LateUpdate()
     {
@@ -57,7 +60,7 @@ public class TrackTarget : MonoBehaviour
     {
         Vector2 boundingBoxCenter = boundingBox.center;
 
-        return new Vector3(boundingBoxCenter.x, boundingBoxCenter.y, camera.transform.position.z);
+        return new Vector3(leadPlayer.transform.position.x, boundingBoxCenter.y, camera.transform.position.z);
     }
     private float CalculateOrthographicSize(Rect boundingBox)
     {
@@ -85,5 +88,18 @@ public class TrackTarget : MonoBehaviour
         {
             targets.Remove(targetToRemove);
         }
+    }
+    public void NewLevelPart(Transform highPoint, Transform lowPoint)
+    {
+        List<Transform> oldTargets = new List<Transform>();
+        foreach (Transform t in targets)
+        {
+            oldTargets.Add(t);
+        }
+        AddTarget(highPoint);
+        AddTarget(lowPoint);
+        RemoveTarget(oldTargets[0]);
+        RemoveTarget(oldTargets[1]);
+
     }
 }

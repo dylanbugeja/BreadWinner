@@ -26,6 +26,9 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private int playerIndex = 0;
     [SerializeField] private int health = 1;
 
+
+
+    public ParticleSystem dust;
     public float moveTimer;
     public bool isBoosting;
     public bool isSlowing;
@@ -33,7 +36,12 @@ public class PlayerMovement : MonoBehaviour
     private void Awake()
     {
         gm = FindObjectOfType<GameManager>();
-        gm.players++;
+        gm.players.Add(gameObject);
+        gm.totalPlayers++;
+        if (gm.totalPlayers == 1)
+        {
+            gm.leadPlayer = gameObject;
+        }
         animator = GetComponent<Animator>();
         col = GetComponent<Collider2D>();
     }
@@ -45,6 +53,8 @@ public class PlayerMovement : MonoBehaviour
     private void Update()
     {
         Move();
+        moveSpeed += ((float)gm.time / 100000);
+        Debug.Log(moveSpeed);
     }
     public void SetInputValue(Vector2 inputValue)
     {
@@ -55,9 +65,11 @@ public class PlayerMovement : MonoBehaviour
 
         if (IsGrounded())
         {
+
             if (inputX < 0 && prinputValue != inputX)
             {
                 ChangeAnimation("Run");
+                dust.Play();
                 //transform.Rotate(0f, 180f, 0f);
                 transform.rotation = new Quaternion(0, 1, 0, 0);
                 prinputValue = inputX;
@@ -65,23 +77,27 @@ public class PlayerMovement : MonoBehaviour
             }
             if (inputX > 0 && prinputValue != inputX)
             {
+                dust.Play();
                 ChangeAnimation("Run");
                 //transform.Rotate(0f, 180f, 0f);
                 transform.rotation = new Quaternion(0, 0, 0, 0);
                 prinputValue = inputX;
                 //transform.localScale = new Vector3(1, 1, 1);
+                
             }
             if (inputX == 0 && prinputValue != inputX)
             {
+                dust.Stop();
                 ChangeAnimation("Idle");
             }
+            
         }
         if (isBoosting)
         {
             moveTimer += Time.deltaTime;
             if (moveTimer >= 2)
             {
-                moveSpeed = 6f;
+                moveSpeed-= 4f;
                 moveTimer = 0;
                 isBoosting = false;
             }
@@ -89,9 +105,9 @@ public class PlayerMovement : MonoBehaviour
         if (isSlowing)
         {
             moveTimer += Time.deltaTime;
-            if (moveTimer >= 5)
+            if (moveTimer >= 3)
             {
-                moveSpeed = 4f;
+                moveSpeed+= 4f;
                 moveTimer = 0;
                 isSlowing = false;
             }
@@ -100,9 +116,11 @@ public class PlayerMovement : MonoBehaviour
     }
     public void Jump(bool performed)
     {
-        ChangeAnimation("Jump");
+
         if (performed && IsGrounded())
         {
+            dust.Stop();
+            ChangeAnimation("Jump");
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
         }
     }
@@ -122,7 +140,7 @@ public class PlayerMovement : MonoBehaviour
         }
     }
     private bool IsGrounded()
-    {
+    { 
         Vector2 tlPoint = transform.position;
         tlPoint.x -= col.bounds.extents.x;
         tlPoint.y += col.bounds.extents.y;
@@ -141,6 +159,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        
         Inventory inven = other.GetComponent<Inventory>();
         if (other.gameObject.tag == "Obstacle")
         {
@@ -153,7 +172,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (other.gameObject.tag == "SpeedBoost")
         {
-            moveSpeed = 12f;
+            moveSpeed+= 4f;
             isBoosting = true;
             Destroy(other.gameObject);
         }
@@ -167,7 +186,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (other.gameObject.tag == "Trap")
         {
-            moveSpeed = 4f;
+            moveSpeed-= 4f;
             isSlowing = true;
             Destroy(other.gameObject);
         }
@@ -179,9 +198,14 @@ public class PlayerMovement : MonoBehaviour
     }
     void Die()
     {
-        gm.players--;
+        gm.totalPlayers--;
+        gm.players.Remove(gameObject);
         gm.CheckGameOver();
         Destroy(gameObject);
+    }
+    public string getCharacter()
+    {
+        return GetComponent<PlayerInputHandler>().GetCharacter();
     }
     private void ChangeAnimation(string newState)
     {
@@ -191,5 +215,9 @@ public class PlayerMovement : MonoBehaviour
         animator.Play(newState); //Dylan: Play new Animation
 
         currentState = newState; //reassign the current state
+    }
+    void CreateDust()
+    {
+        dust.Play();
     }
 }

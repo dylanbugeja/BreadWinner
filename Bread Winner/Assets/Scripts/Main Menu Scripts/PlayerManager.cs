@@ -11,6 +11,7 @@ public class PlayerManager : MonoBehaviour
     private List<PlayerConfiguration> playerConfigs;
 
     [SerializeField] private Button start;
+    public string Winner;
     private int maxPlayers = 0;
 
     public static PlayerManager instance { get; private set; }

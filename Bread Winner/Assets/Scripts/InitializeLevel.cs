@@ -18,6 +18,8 @@ public class InitializeLevel : MonoBehaviour
         characters.Add("Loaf", playerPrefabs[0]);
         characters.Add("Bagel", playerPrefabs[1]);
         characters.Add("Baguette", playerPrefabs[2]);
+        characters.Add("Roll", playerPrefabs[3]);
+        characters.Add("Swiss", playerPrefabs[4]);
 
 
 
@@ -35,7 +37,6 @@ public class InitializeLevel : MonoBehaviour
         {
             //playerConfigs[i]
             var player = Instantiate(characters[playerConfigs[i].Character], playerSpawns[i].position, playerSpawns[i].rotation, gameObject.transform);
-            track.AddTarget(player.transform);
             LevelGenerator.GetComponent<LevelGenerator>().Players.Add(player);
             player.GetComponent<PlayerInputHandler>().InitializePlayer(playerConfigs[i]);
         }

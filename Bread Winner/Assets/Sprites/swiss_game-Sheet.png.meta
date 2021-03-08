@@ -1,0 +1,920 @@
+fileFormatVersion: 2
+guid: f137bd4d5ad31cf49a5dd3c053d63c38
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7916302407054113162
+    second: swiss_game-Sheet_0
+  - first:
+      213: -7300035742798129699
+    second: swiss_game-Sheet_1
+  - first:
+      213: -591170068219235626
+    second: swiss_game-Sheet_2
+  - first:
+      213: -3846134659829259386
+    second: swiss_game-Sheet_3
+  - first:
+      213: 1883353337082958989
+    second: swiss_game-Sheet_4
+  - first:
+      213: -3375562565277425849
+    second: swiss_game-Sheet_5
+  - first:
+      213: 8674870108472827121
+    second: swiss_game-Sheet_6
+  - first:
+      213: -889642060608545184
+    second: swiss_game-Sheet_7
+  - first:
+      213: -8967029927148314479
+    second: swiss_game-Sheet_8
+  - first:
+      213: -7171670309115104892
+    second: swiss_game-Sheet_9
+  - first:
+      213: 3951401398254975261
+    second: swiss_game-Sheet_10
+  - first:
+      213: -5255091669251107985
+    second: swiss_game-Sheet_11
+  - first:
+      213: 5421182855199106869
+    second: swiss_game-Sheet_12
+  - first:
+      213: 3199511290398214805
+    second: swiss_game-Sheet_13
+  - first:
+      213: 386587810309394139
+    second: swiss_game-Sheet_14
+  - first:
+      213: 6416493774308763631
+    second: swiss_game-Sheet_15
+  - first:
+      213: -9062426535809490075
+    second: swiss_game-Sheet_16
+  - first:
+      213: 2438404487207002147
+    second: swiss_game-Sheet_17
+  - first:
+      213: 5470839503754378989
+    second: swiss_game-Sheet_18
+  - first:
+      213: 7794883869440287683
+    second: swiss_game-Sheet_19
+  - first:
+      213: -300369384994376538
+    second: swiss_game-Sheet_20
+  - first:
+      213: 4395755163442603468
+    second: swiss_game-Sheet_21
+  - first:
+      213: 8288044164993420584
+    second: swiss_game-Sheet_22
+  - first:
+      213: 522549918776656203
+    second: swiss_game-Sheet_23
+  - first:
+      213: 2881291701531609648
+    second: swiss_game-Sheet_24
+  - first:
+      213: -6104043722555789395
+    second: swiss_game-Sheet_25
+  - first:
+      213: 9021286705290878011
+    second: swiss_game-Sheet_26
+  - first:
+      213: -4974787708071285476
+    second: swiss_game-Sheet_27
+  - first:
+      213: -3589354662605687614
+    second: swiss_game-Sheet_28
+  - first:
+      213: 368651780234140279
+    second: swiss_game-Sheet_29
+  - first:
+      213: -8220501922928812387
+    second: swiss_game-Sheet_30
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Lumin
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: swiss_game-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67648f437e4a32290800000000000000
+      internalID: -7916302407054113162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swiss_game-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd5dcde4b2011ba90800000000000000
+      internalID: -7300035742798129699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swiss_game-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 1
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d2f2f184fdbbc7f0800000000000000
+      internalID: -591170068219235626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swiss_game-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 10
+        width: 53
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6832f8297e8cf9ac0800000000000000
+      internalID: -3846134659829259386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swiss_game-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 1
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d845063b1e3032a10800000000000000
+      internalID: 1883353337082958989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swiss_game-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74f588b3bb79721d0800000000000000
+      internalID: -3375562565277425849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swiss_game-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 1
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fc5d28f664536870800000000000000
+      internalID: 8674870108472827121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swiss_game-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 11
+        width: 44
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06e5e28624b57a3f0800000000000000
+      internalID: -889642060608545184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swiss_game-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 1
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19027066ac5be8380800000000000000
+      internalID: -8967029927148314479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swiss_game-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 1
+        width: 45
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4817afad9db197c90800000000000000
+      internalID: -7171670309115104892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swiss_game-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 1
+        width: 45
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1938f3e2a236d630800000000000000
+      internalID: 3951401398254975261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swiss_game-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 1
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f635c2038f92217b0800000000000000
+      internalID: -5255091669251107985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swiss_game-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 1
+        width: 49
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 537a49a8519eb3b40800000000000000
+      internalID: 5421182855199106869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swiss_game-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 1
+        width: 49
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59a890f1192f66c20800000000000000
+      internalID: 3199511290398214805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swiss_game-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 1
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdeccf3b09f6d5500800000000000000
+      internalID: 386587810309394139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swiss_game-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 1
+        width: 45
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe7ed297717fb0950800000000000000
+      internalID: 6416493774308763631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swiss_game-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 1
+        width: 45
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 563600a941bcb3280800000000000000
+      internalID: -9062426535809490075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swiss_game-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 1
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32021be36f3f6d120800000000000000
+      internalID: 2438404487207002147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swiss_game-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 1
+        width: 49
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dee347cfa835ceb40800000000000000
+      internalID: 5470839503754378989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swiss_game-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 1
+        width: 49
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c32967849dfc2c60800000000000000
+      internalID: 7794883869440287683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swiss_game-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 1
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a4f102c2afd4dbf0800000000000000
+      internalID: -300369384994376538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swiss_game-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 1
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc5e59c080cd00d30800000000000000
+      internalID: 4395755163442603468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swiss_game-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 1
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82d8e21914c050370800000000000000
+      internalID: 8288044164993420584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swiss_game-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 1
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b41871ee168704700800000000000000
+      internalID: 522549918776656203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swiss_game-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 1
+        width: 49
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03a821c69876cf720800000000000000
+      internalID: 2881291701531609648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swiss_game-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 1607
+        y: 1
+        width: 49
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dafeb9f23941a4ba0800000000000000
+      internalID: -6104043722555789395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swiss_game-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 1675
+        y: 1
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3c11dd267c023d70800000000000000
+      internalID: 9021286705290878011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swiss_game-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 1739
+        y: 1
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1d6e63efe006fab0800000000000000
+      internalID: -4974787708071285476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swiss_game-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 1803
+        y: 4
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c4fe7a93fc003ec0800000000000000
+      internalID: -3589354662605687614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swiss_game-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 1867
+        y: 9
+        width: 47
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77adba647d6bd1500800000000000000
+      internalID: 368651780234140279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swiss_game-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 1931
+        y: 4
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9e99602e09eaed80800000000000000
+      internalID: -8220501922928812387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

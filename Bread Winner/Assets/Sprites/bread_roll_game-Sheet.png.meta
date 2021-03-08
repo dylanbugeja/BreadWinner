@@ -1,0 +1,920 @@
+fileFormatVersion: 2
+guid: 721d86a911ebdc4438f5af3aa876fe39
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1857745609491777391
+    second: bread_roll_game-Sheet_0
+  - first:
+      213: -8500088192820106593
+    second: bread_roll_game-Sheet_1
+  - first:
+      213: -739636071738894459
+    second: bread_roll_game-Sheet_2
+  - first:
+      213: -496910681477713527
+    second: bread_roll_game-Sheet_3
+  - first:
+      213: 488574917785071587
+    second: bread_roll_game-Sheet_4
+  - first:
+      213: 1979866167684123273
+    second: bread_roll_game-Sheet_5
+  - first:
+      213: 7916614100927762098
+    second: bread_roll_game-Sheet_6
+  - first:
+      213: -7721742909742775380
+    second: bread_roll_game-Sheet_7
+  - first:
+      213: -5350659586661295179
+    second: bread_roll_game-Sheet_8
+  - first:
+      213: 8390534598503745285
+    second: bread_roll_game-Sheet_9
+  - first:
+      213: 3238473769191559205
+    second: bread_roll_game-Sheet_10
+  - first:
+      213: -2738019987800312073
+    second: bread_roll_game-Sheet_11
+  - first:
+      213: 922555916549264319
+    second: bread_roll_game-Sheet_12
+  - first:
+      213: -6292997290790955663
+    second: bread_roll_game-Sheet_13
+  - first:
+      213: -4345269013718680383
+    second: bread_roll_game-Sheet_14
+  - first:
+      213: -3717949636709348427
+    second: bread_roll_game-Sheet_15
+  - first:
+      213: 3461036491073401808
+    second: bread_roll_game-Sheet_16
+  - first:
+      213: 4682183764385110764
+    second: bread_roll_game-Sheet_17
+  - first:
+      213: 7572334894856144125
+    second: bread_roll_game-Sheet_18
+  - first:
+      213: -4366191501325922037
+    second: bread_roll_game-Sheet_19
+  - first:
+      213: 56075212618731062
+    second: bread_roll_game-Sheet_20
+  - first:
+      213: 8560594449203774084
+    second: bread_roll_game-Sheet_21
+  - first:
+      213: -7710779720296487829
+    second: bread_roll_game-Sheet_22
+  - first:
+      213: 8005531663818100800
+    second: bread_roll_game-Sheet_23
+  - first:
+      213: -9112005795682793291
+    second: bread_roll_game-Sheet_24
+  - first:
+      213: 4510844342027548802
+    second: bread_roll_game-Sheet_25
+  - first:
+      213: -3775098782895546111
+    second: bread_roll_game-Sheet_26
+  - first:
+      213: -4531717199815268367
+    second: bread_roll_game-Sheet_27
+  - first:
+      213: -8973948644010537050
+    second: bread_roll_game-Sheet_28
+  - first:
+      213: -4358243814251726423
+    second: bread_roll_game-Sheet_29
+  - first:
+      213: 5045987623045000040
+    second: bread_roll_game-Sheet_30
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Lumin
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bread_roll_game-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f678cc00ac908c910800000000000000
+      internalID: 1857745609491777391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bread_roll_game-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 1
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9a2773f2de990a80800000000000000
+      internalID: -8500088192820106593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bread_roll_game-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 1
+        width: 45
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58710f859e84cb5f0800000000000000
+      internalID: -739636071738894459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bread_roll_game-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 12
+        width: 61
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9817c613e5e9a19f0800000000000000
+      internalID: -496910681477713527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bread_roll_game-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1
+        width: 58
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3efaeb49c44c7c600800000000000000
+      internalID: 488574917785071587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bread_roll_game-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98a40ab2ac5e97b10800000000000000
+      internalID: 1979866167684123273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bread_roll_game-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 1
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bec5ada4967ddd60800000000000000
+      internalID: 7916614100927762098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bread_roll_game-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 13
+        width: 46
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca304e13cbbd6d490800000000000000
+      internalID: -7721742909742775380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bread_roll_game-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 1
+        width: 48
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bbd3077473aeb5b0800000000000000
+      internalID: -5350659586661295179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bread_roll_game-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 1
+        width: 53
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 507c07b23ca217470800000000000000
+      internalID: 8390534598503745285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bread_roll_game-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 1
+        width: 53
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52055132cbe51fc20800000000000000
+      internalID: 3238473769191559205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bread_roll_game-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 1
+        width: 48
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f63e37e359900ad0800000000000000
+      internalID: -2738019987800312073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bread_roll_game-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 1
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb39a5bd7b39dcc00800000000000000
+      internalID: 922555916549264319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bread_roll_game-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 1
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 175d8e54e48caa8a0800000000000000
+      internalID: -6292997290790955663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bread_roll_game-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 1
+        width: 48
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cc39cfaad082b3c0800000000000000
+      internalID: -4345269013718680383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bread_roll_game-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 1
+        width: 53
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bb85230180376cc0800000000000000
+      internalID: -3717949636709348427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bread_roll_game-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 1
+        width: 53
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d3381de952180030800000000000000
+      internalID: 3461036491073401808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bread_roll_game-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 1
+        width: 48
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cea964193557af040800000000000000
+      internalID: 4682183764385110764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bread_roll_game-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 1
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df402388776561960800000000000000
+      internalID: 7572334894856144125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bread_roll_game-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 1
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b01932e66fb2863c0800000000000000
+      internalID: -4366191501325922037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bread_roll_game-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 1
+        width: 48
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63e08d8db1837c000800000000000000
+      internalID: 56075212618731062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bread_roll_game-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 1
+        width: 53
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 482c8faab475dc670800000000000000
+      internalID: 8560594449203774084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bread_roll_game-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 1409
+        y: 1
+        width: 53
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b642176a2becdf490800000000000000
+      internalID: -7710779720296487829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bread_roll_game-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 1
+        width: 48
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 040150412ac591f60800000000000000
+      internalID: 8005531663818100800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bread_roll_game-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 1546
+        y: 1
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b8c60d9107ab8180800000000000000
+      internalID: -9112005795682793291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bread_roll_game-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 1610
+        y: 1
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 288f1a3970db99e30800000000000000
+      internalID: 4510844342027548802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bread_roll_game-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 1669
+        y: 1
+        width: 49
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 101608588a72c9bc0800000000000000
+      internalID: -3775098782895546111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bread_roll_game-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 1729
+        y: 1
+        width: 53
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f7ab72873b1c11c0800000000000000
+      internalID: -4531717199815268367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bread_roll_game-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 1802
+        y: 1
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6af47291141267380800000000000000
+      internalID: -8973948644010537050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bread_roll_game-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 1866
+        y: 5
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a97bf687586483c0800000000000000
+      internalID: -4358243814251726423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bread_roll_game-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 1930
+        y: 1
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86b6d942203f60640800000000000000
+      internalID: 5045987623045000040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
